@@ -264,7 +264,7 @@ const handleSubmit = async () => {
                 />
                 {errors.guestCount && (
                   <span className="text-red-500 text-xs">
-                    {errors.guestCount as string}
+                    {errors.guestCount}
                   </span>
                 )}
               </div>
